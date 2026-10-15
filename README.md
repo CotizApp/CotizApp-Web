@@ -24,6 +24,6 @@ Luego abrir `http://localhost:8080`.
 Antes de publicar, revisar los textos legales. El despliegue debe hacerse contra el proyecto explícito:
 
 ```bash
-npx firebase-tools@15.32.1 deploy --project cotizapp-production --only hosting
+npx firebase-tools@15.32.1 deploy --project cotizapp-production --only hosting:public
 ```
 

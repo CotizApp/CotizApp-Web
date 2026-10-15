@@ -1,6 +1,15 @@
 {
   "projects": {
     "default": "cotizapp-production"
-  }
+  },
+  "targets": {
+    "cotizapp-production": {
+      "hosting": {
+        "public": [
+          "cotizapp"
+        ]
+      }
+    }
+  },
+  "etags": {}
 }
-
